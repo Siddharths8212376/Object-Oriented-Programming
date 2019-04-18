@@ -132,20 +132,12 @@ case 2:cout<<"\nEnter the costumer id:";
 
 	for(int j=0 ; j<noc; j++)
 	{
-
-
-
-
 	if(a[j].returnid()==id)
 	{
     a[j].calbal();
 	cout<<"\nYour account is registered.. Your balance is:"<<a[j].showbal();
   cout<<"\n";
-
 	}
-
-
-
     else
       f2++;
 
